@@ -22,5 +22,18 @@ public class Ex5_24 {
         int[] arr3 = Arrays.copyOfRange(arr,2,4);
         System.out.println(Arrays.toString(arr2));
         System.out.println(Arrays.toString(arr3));
+
+
+        Tv[] tvArr = new Tv[5];
+        tvArr[0] = new Tv();
+        tvArr[1] = new Tv();
+        tvArr[2] = new Tv();
+        tvArr[3] = new Tv();
+        tvArr[4] = new Tv();
+
     }
+}
+
+class Tv{
+
 }
